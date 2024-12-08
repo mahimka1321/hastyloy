@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Машина времени</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body>
+    <div class="st3">
+        <h1>Загадочная духовка</h1>
+        <p>
+            Меня это истощает, я уже все перепробывал, но так и не смог найти ответ...
+        </p>
+    </div>
+    <section class="sc_st3">
+        <p>Я не думаю что у тебя получится, но стоит попробывать.</p>
+        <div><p>Духовка</p><input id="inSt3" type="text" placeholder="ответ"></div>
+        <p>
+            Какая еще Духовка ? Я уже все перепробывал. Знаю лишь то, что в ответе должно быть два слова. 
+            Но как я говорил ранее перепробывал все:   Духовка умная галактическая, Духовка духов прошлого и тд. 
+            Не что из этого не подошло. Может ты знаешь ответ ???
+        </p>
+        <button id="btnSt3">Проверить ответ</button>
+        <script>
+            var checkInput3 = document.getElementById("inSt3");
+            var btnSt3 = document.getElementById("btnSt3");
+
+            btnSt3.addEventListener('click', function(){
+                if (checkInput3.value=='сильвии плат' || checkInput3.value=='Сильвии плат' || checkInput3.value=='Сильвии Плат'){
+                    alert('Как? как ты это делаешь?')
+                    window.location.href = 'page2.html'
+                } else {
+                    alert('Неверное решение, попробуй заново')
+                }
+            });
+        </script>
+    </section>
+</body>
+</html>
