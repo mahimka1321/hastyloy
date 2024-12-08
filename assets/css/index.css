@@ -104,3 +104,150 @@ body {
   border-radius: 5px;
   margin-top: 10px;
 }
+
+
+/* загадка 4 */
+
+.st4 > p {
+  margin: 10px 0 50px 0;
+}
+
+.sc_st4 {
+  display: flex;
+  width: 100%;
+}
+
+.sc_st4 > div > button {
+  min-width: 100px;
+  max-width: 1000px;
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* загадка 5 */
+
+.st5 > p {
+  margin: 10px 0 50px 0;
+}
+
+.sc_st5 > div {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sc_st5 > div > p  {
+  width: 100%;
+}
+
+.sc_st5 > div > input  {
+  width: 50px;
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.sc_st5 > button {
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* загадка 6 */
+
+.st6 > p {
+  margin: 10px 0 50px 0;
+}
+
+.sc_st6 {
+  display: flex;
+  width: 100%;
+}
+
+.sc_st6 > div {
+  min-width: 100px;
+  max-width: 1000px;
+  width: 100%;
+  height: 35px;
+}
+
+.sc_st6 > div > button {
+  min-width: 100px;
+  max-width: 1000px;
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+
+/* загадка 7 */
+
+.st7 > p {
+  margin: 10px 0 50px 0;
+}
+
+.sc_st7 > div {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sc_st7 > div > p  {
+  width: 100%;
+}
+
+.sc_st7 > div > input  {
+  width: 50px;
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.sc_st7 > button {
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.wrapper > .card_st7 {
+  width: 150px;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+  padding: 3px;
+  margin: 2px;
+  position: relative;
+  z-index: 1;
+  background-color: rgb(202, 202, 202);
+  border-radius: 8px;
+
+}
+
+.wrapper > .card_st7 > img {
+  width: 90%;
+  height: auto;
+  margin-top: 8px;
+}
+
+.wrapper > .card_st7:hover{
+  width: 250px;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+}

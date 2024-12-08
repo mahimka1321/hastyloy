@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Машина времени</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body>
+    <div class="st5">
+        <h1>Память</h1>
+        <p>
+            Знаешь, я не думаю что ты с этим справишься, но как там говорится?
+            А точно, кто не рискует тот не пьёт синий адриналин. 
+        </p>
+    </div>
+    <section class="sc_st5">
+        <p>Нам придется с тобой вернутся далеко назад. Справишься?</p>
+        <div><p>Что же было там написано</p><input id="inSt5" type="text" placeholder="ответ"></div>
+        <p>
+            Я погляжу ты очень хорошо во всем разбераешься, но насколько ты хорошо запоминаешь. 
+            Как то давно, у меня был пластиковый серый стаканчик, для карандашей. И я точно знаю что ты на нем что то написала, 
+            кажется, это было Б*** Ах точно, ты же сама должна вспомнить..
+            И не забудь записывать ответы или запоминать в том порядке в котором они идут! 
+        </p>
+        <button id="btnSt5">Проверить ответ</button>
+        <script>
+            var checkInput5 = document.getElementById("inSt5");
+            var btnSt5 = document.getElementById("btnSt5");
+            
+            btnSt5.addEventListener('click', function(){
+                if (checkInput5.value=='Бяка' || checkInput5.value=='бяка' ){
+                    alert('Ты.. Ты.. Как тебе это удается ???')
+                    window.location.href = 'page6.html'
+                } else {
+                    alert('Неверное решение, попробуй заново')
+                }
+            });
+        </script>
+    </section>
+</body>
+</html>
