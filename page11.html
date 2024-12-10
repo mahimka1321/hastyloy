@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Машина времени</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body>
+    <div class="st9">
+        <h1></h1>
+        <p>
+        </p>
+    </div>
+    <section class="sc_st9">
+        <p>
+        </p>
+        <div>
+            <p>
+            </p>
+            <input id="inSt9" type="text" placeholder="ответ"></div>
+        <p>
+        </p>
+        <button id="btnSt9">Проверить ответ</button>
+        <script>
+            var checkInput9 = document.getElementById("inSt9");
+            var btnSt9 = document.getElementById("btnSt9");
+            
+            btnSt9.addEventListener('click', function(){
+                if (checkInput9.value=='в коробке формой сердца' || checkInput9.value=='В коробке формой сердца'){
+                    alert('У тебя очень хорошая память, мне это нравится')
+                    window.location.href = 'page10.html'
+                } else {
+                    alert('Неверное решение, попробуй заново')
+                }
+            });
+        </script>
+    </section>
+</body>
+</html>

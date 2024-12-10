@@ -14,17 +14,36 @@
     <link rel="stylesheet" href="assets/css/index.css">
 </head>
 <body>
-    <div class="st6">
-        <h1>Ты</h1>
+    <div class="st8">
+        <h1>Думай! Думай! Думай!</h1>
         <p>
+            И так я посмотрю ты умна, но помнишь ли ты, все эти мелочи?
         </p>
     </div>
-    <section class="sc_st6">
+    <section class="sc_st8">
+        <p>Вот тебе еще одна математическая задачка, справишься ?</p>
         <div>
             <p>
+                в какой школе я учился - сколько дней в неделю я работаю - сколько выходных у меня было в похоронке = 
             </p>
-            <button onclick="location.href='page7.html'" id="btnSt5">Далее</button>
-        </div>
+            <input id="inSt8" type="text" placeholder="ответ"></div>
+        <p>
+            Не забудь записать или запомнить все ответы!!!
+        </p>
+        <button id="btnSt8">Проверить ответ</button>
+        <script>
+            var checkInput8 = document.getElementById("inSt8");
+            var btnSt8 = document.getElementById("btnSt8");
+            
+            btnSt8.addEventListener('click', function(){
+                if (checkInput8.value=='18'){
+                    alert('Ты явно знаешь больше, чем другие...')
+                    window.location.href = 'page9.html'
+                } else {
+                    alert('Неверное решение, попробуй заново')
+                }
+            });
+        </script>
     </section>
 </body>
 </html>
