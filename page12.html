@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Машина времени</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body>
+    <div class="st9">
+        <h1>Скучаю по этому</h1>
+        <p>
+            Как же это было давно... Знаешь у меня в голове на долго засело время когда мы приходили ко мне и смотрели 
+            "мамикса", но что мы еще смотрели? 
+        </p>
+    </div>
+    <section class="sc_st1">
+        <p>
+            Слушай, это если что не про Ривердейл
+        </p>
+        <div>
+            <input id="inSt12" type="text" placeholder="ответ"></div>
+        <button id="btnSt12">Проверить ответ</button>
+        <script>
+            var checkInput12 = document.getElementById("inSt12");
+            var btnSt12 = document.getElementById("btnSt12");
+            
+            btnSt12.addEventListener('click', function(){
+                if (checkInput12.value=='гравити фолз' || checkInput12.value=='гравити фолз'){
+                    alert('да да да. я скучаю по этому времени...')
+                    window.location.href = 'page13.html'
+                } else {
+                    alert('Неверное решение, попробуй заново')
+                }
+            });
+        </script>
+    </section>
+</body>
+</html>
