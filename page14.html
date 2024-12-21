@@ -14,15 +14,34 @@
     <link rel="stylesheet" href="assets/css/index.css">
 </head>
 <body>
-    <div class="st2">
-        <h1>Заклинание</h1>
+    <div class="st9">
+        <h1>Кража</h1>
         <p>
-            Вот и все. Что бы все сработало, нужно прочесть заклинание.
-        </p>
+            Кто то украл у меня *********</p>
     </div>
-    <section class="sc_st2">
-        <button onclick="location.href='page15.html'" id="btnSt2">Далее</button>
+    <section class="sc_st1">
+        <p>
+            Помню я лежал на гараже с самой прекрастной девушкой, но кто бы знал что она у меня стырит *********
+        </p>
+        <div>
+            <p>У же тогда у меня стырили ?</p>
+            <input id="inSt13" type="text" placeholder="ответ">
+        </div>
+        
+        <button id="btnSt13">Проверить ответ</button>
+        <script>
+            var checkInput13 = document.getElementById("inSt13");
+            var btnSt13 = document.getElementById("btnSt13");
+            
+            btnSt13.addEventListener('click', function(){
+                if (checkInput13.value=='зажигалка' || checkInput13.value=='Зажигалка' || checkInput13.value=='Зажигалку' || checkInput13.value=='зажигалку'){
+                    alert('может она хотела согрется огоньком ?')
+                    window.location.href = 'page15.html'
+                } else {
+                    alert('Неверное решение, попробуй заново')
+                }
+            });
+        </script>
     </section>
-    <script src="assets/index.js"></script>
 </body>
 </html>
